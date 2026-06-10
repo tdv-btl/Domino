@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Domino Daşları</title>
+    <style>
+        .domino-container {
+            display: flex;
+            gap: 15px;
+            font-size: 80px; /* Daşların ölçüsünü buradan böyüdüb kiçildə bilərsən */
+            color: #111; /* Daşın rəngi */
+        }
+        .domino-stone {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .domino-stone:hover {
+            transform: scale(1.1); /* Siçan üzərinə gələndə böyümə effekti */
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Unicode ilə Domino Daşları (Şəkilsiz, CSS ilə):</h3>
+    <div class="domino-container">
+        <!-- 0-0 Daşı -->
+        <span class="domino-stone">&#x1F031;</span>
+        <!-- 1-1 Daşı -->
+        <span class="domino-stone">&#x1F039;</span>
+        <!-- 2-2 Daşı -->
+        <span class="domino-stone">&#x1F041;</span>
+        <!-- 6-6 Daşı -->
+        <span class="domino-stone">&#x1F063;</span>
+    </div>
+
+</body>
+</html>
